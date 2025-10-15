@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Nubia Unique Units -->
+		<Row Tag="LOC_UNIT_KUSHITE_TOWER_NAME">
+			<Text>Kushite Tower</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KUSHITE_TOWER_BASE_DESCRIPTION">
+			<Text>Nubian Unique Siege Unit. +1 Movement. +1 Strength for every Kushite Tower you have trained.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KUSHITE_TOWER_DESCRIPTION">
+			<Text>Tier 2 Nubian Unique Siege Unit. +1 Movement. +1 Strength for every Kushite Tower you have trained.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KUSHITE_TOWER_PREVIEW">
+			<Text>+{1_Amount} Trained Kushite Towers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PASTORALIST_NAME">
+			<Text>Pastoralist</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PASTORALIST_DESCRIPTION">
+			<Text>Nubian Unique Scout. +1 Movement. Generates +2[icon:YIELD_FOOD] Food when stationed on a Rural District in a Settlement you own.</Text>
+		</Row>
+	</EnglishText>
+</Database>

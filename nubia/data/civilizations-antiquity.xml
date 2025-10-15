@@ -108,9 +108,8 @@
 		<Row ListType="NUBIA PseudoYield Biases" LeaderType="TRAIT_NUBIA" System="PseudoYieldBiases" />
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="NUBIA Unit Biases" Item="UNIT_HWARANG" Value="50"/>
-		<Row ListType="NUBIA Unit Biases" Item="UNIT_HWARANG_2" Value="50"/>
-		<Row ListType="NUBIA Unit Biases" Item="UNIT_SANGDAEDEUNG" Value="50"/>
+		<Row ListType="NUBIA Unit Biases" Item="UNIT_KUSHITE_TOWER" Value="50"/>
+		<Row ListType="NUBIA Unit Biases" Item="UNIT_PASTORALIST" Value="50"/>
 		<Row ListType="NUBIA Government Bias" Item="GOVERNMENT_OLIGARCHY" Value="25"/>
 		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_ROYAL_BATH" Value="200"/>
 		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_ASTRONOMICAL_OBSERVATORY" Value="200"/>

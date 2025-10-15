@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_KUSHITE_TOWER" UnlockDepth="1" RequiredTraitType="TRAIT_NUBIA"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

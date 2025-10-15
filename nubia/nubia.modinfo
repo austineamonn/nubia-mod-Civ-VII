@@ -52,11 +52,16 @@
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -86,6 +91,7 @@
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
 			</Actions>
