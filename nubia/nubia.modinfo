@@ -36,9 +36,11 @@
         <ActionGroup id="base-game-main-nubia" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
@@ -47,11 +49,13 @@
 		<ActionGroup id="age-antiquity-main-nubia" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
                 </UpdateText>
 			</Actions>
@@ -63,8 +67,11 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -76,6 +83,8 @@
 				<UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>

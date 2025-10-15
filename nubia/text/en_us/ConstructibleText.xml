@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civ Unique Buildings-->
+		<Row Tag="LOC_QUARTER_ROYAL_COMPLEX_NAME">
+			<Text>Royal Complex</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ROYAL_COMPLEX_DESCRIPTION">
+			<Text>Nubia Unique Quarter. Created by constructing the Royal Bath and Astronomical Observatory in the same District. City gains a bonus to [icon:YIELD_SCIENCE] Science equal to 5% of that City’s [icon:YIELD_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ROYAL_COMPLEX_TOOLTIP">
+			<Text>City gains a bonus to [icon:YIELD_SCIENCE] Science equal to 5% of that City’s [icon:YIELD_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROYAL_BATH_NAME">
+			<Text>Royal Bath</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROYAL_BATH_DESCRIPTION">
+			<Text>+3 [icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food Adjacency for Wonders. +10% Growth Rate. Nubia Unique Food Building. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROYAL_BATH_TOOLTIP">
+			<Text>[B]Effect:[/B] +10% Growth Rate.[N]Nubia Unique Building.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME">
+			<Text>Astronomical Observatory</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION">
+			<Text>+3 [icon:YIELD_SCIENCE] Science. +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters and Wonders. Nubia Unique Science Building. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_TOOLTIP">
+			<Text>Nubia Unique Building.</Text>
+		</Row>
+	</EnglishText>
+</Database>

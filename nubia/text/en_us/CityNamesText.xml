@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Nubia-->
+		<Row Tag="LOC_CITY_NAME_NUBIA1">
+			<Text>Meroe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA2">
+			<Text>Kerma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA3">
+			<Text>Napata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA4">
+			<Text>Nuri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA5">
+			<Text>El-Kurru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA6">
+			<Text>Sedeinga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA7">
+			<Text>Heh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA8">
+			<Text>Qasr Ibrim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA9">
+			<Text>Faras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA10">
+			<Text>Shaat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA11">
+			<Text>Iken</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA12">
+			<Text>Abu Simbel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA13">
+			<Text>Buhen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA14">
+			<Text>Dangeil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA15">
+			<Text>Miam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA16">
+			<Text>Tombos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA17">
+			<Text>Kurgus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA18">
+			<Text>Toshka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA19">
+			<Text>Soleb</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA20">
+			<Text>Wad ban Naqa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA21">
+			<Text>Debba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA22">
+			<Text>Bugdumbush</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA23">
+			<Text>Baki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA24">
+			<Text>Amara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA25">
+			<Text>Musawwarat es-Sufra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA26">
+			<Text>El Fura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA27">
+			<Text>Ukma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA28">
+			<Text>Pedeme</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUBIA29">
+			<Text>Defeia</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -7,9 +7,9 @@
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="TRAIT_NUBIA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NUBIA_ABILITY_NAME" Description="LOC_TRAIT_NUBIA_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_HWARANG" Kind="KIND_UNIT" Name="LOC_UNIT_HWARANG_NAME" Description="LOC_UNIT_HWARANG_BASE_DESCRIPTION" Icon="unitflag_leiomano.png"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_SANGDAEDEUNG" Kind="KIND_UNIT" Name="LOC_UNIT_SANGDAEDEUNG_NAME" Description="LOC_UNIT_SANGDAEDEUNG_DESCRIPTION" Icon="unitflag_SANGDAEDEUNG.png"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="QUARTER_DRAGON_TEMPLE" Kind="KIND_QUARTER" Name="LOC_QUARTER_DRAGON_TEMPLE_NAME" Description="LOC_QUARTER_DRAGON_TEMPLE_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_LECTURE_HALL" Kind="KIND_BUILDING" Name="LOC_BUILDING_LECTURE_HALL_NAME" Description="LOC_BUILDING_LECTURE_HALL_DESCRIPTION" Icon="impicon_loikalo.png"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_PAGODA" Kind="KIND_BUILDING" Name="LOC_BUILDING_PAGODA_NAME" Description="LOC_BUILDING_PAGODA_DESCRIPTION" Icon="impicon_loikalo.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="QUARTER_ROYAL_COMPLEX" Kind="KIND_QUARTER" Name="LOC_QUARTER_ROYAL_COMPLEX_NAME" Description="LOC_QUARTER_ROYAL_COMPLEX_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ROYAL_BATH" Kind="KIND_BUILDING" Name="LOC_BUILDING_ROYAL_BATH_NAME" Description="LOC_BUILDING_ROYAL_BATH_DESCRIPTION" Icon="impicon_loikalo.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Kind="KIND_BUILDING" Name="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME" Description="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION" Icon="impicon_loikalo.png"/>
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" TagType="TAG_TRAIT_EXPANSIONIST"/>

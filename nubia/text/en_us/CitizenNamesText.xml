@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Nubia-->
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_1">
+			<Text>Alara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_2">
+			<Text>Amanislo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_3">
+			<Text>Apedemak</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_4">
+			<Text>Arensnuphis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_5">
+			<Text>Arqamani</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_6">
+			<Text>Dedun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_7">
+			<Text>Mandulis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_8">
+			<Text>Mut</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_9">
+			<Text>Piye</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_MALE_10">
+			<Text>Sebiumeker</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_1">
+			<Text>Amanikhatashan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_2">
+			<Text>Amanirenas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_3">
+			<Text>Amanishakheto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_4">
+			<Text>Amenirdis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_5">
+			<Text>Amesemi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_6">
+			<Text>Kadimalo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_7">
+			<Text>Khalese</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_8">
+			<Text>Nasala</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_9">
+			<Text>Shanakdakheto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NUBIA_FEMALE_10">
+			<Text>Tabiry</Text>
+		</Row>
+	</EnglishText>
+</Database>

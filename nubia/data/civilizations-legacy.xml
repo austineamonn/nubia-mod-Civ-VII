@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore Kind="KIND_TRAIT"/>
+	</Kinds>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_NUBIA" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_NUBIA" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_NUBIA" Name="LOC_CIVILIZATION_NUBIA_NAME" FullName="LOC_CIVILIZATION_NUBIA_FULLNAME" Adjective="LOC_CIVILIZATION_NUBIA_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_NUBIA"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_NUBIA" InternalOnly="true"/>
+	</Traits>
+</Database>

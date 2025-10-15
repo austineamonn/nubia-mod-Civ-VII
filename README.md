@@ -4,6 +4,15 @@ Version 0.1
 
 An antiquity civilization focused on food, science, and siege warfare.
 
+## Acknowledgements:
+
+Here is a list of the various sources used to understand the history and culture of ancient Nubia.
+
+<ol>
+    <li>African History Extra [link here](https://www.africanhistoryextra.com/p/the-ancient-city-of-meroe-the-capital).</li>
+    <li>Civ Wiki on Nubia from Civ VI [link here](https://civilization.fandom.com/wiki/Nubian_(Civ6)).</li>
+</ol>
+
 ## Latest Update:
 
-Nubia can be seen on the choose civilization screen. Note that the behind the scenes code is not done so the civ cannot actually be chosen yet.
+Added unique quarter, citizen and city names;.

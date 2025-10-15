@@ -1,10 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+    <Kinds>
+      <InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+    </Kinds>
+    <Types>
+      <!--Civ Unique Buildings-->
+      <Row Type="BUILDING_ROYAL_BATH" Kind="KIND_CONSTRUCTIBLE"/>
+      <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Kind="KIND_CONSTRUCTIBLE"/>
+      <Row Type="QUARTER_ROYAL_COMPLEX" Kind="KIND_QUARTER"/>
+    </Types>
+    <Constructibles>
+      <!--Civ Unique Buildings-->
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" Name="LOC_BUILDING_ROYAL_BATH_NAME" Description="LOC_BUILDING_ROYAL_BATH_DESCRIPTION" Tooltip="LOC_BUILDING_ROYAL_BATH_TOOLTIP"  ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" Name="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME" Description="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION" Tooltip="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_TOOLTIP" ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+    </Constructibles>
+    <Buildings>
+      <!--Civ Unique Buildings-->
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" Movable="false" TraitType="TRAIT_NUBIA"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" Movable="false" TraitType="TRAIT_NUBIA"/>
+    </Buildings>
+    <TypeTags>
+      <Row Type="BUILDING_ROYAL_BATH" Tag="FOOD"/>
+      <Row Type="BUILDING_ROYAL_BATH" Tag="UNIQUE"/>
+      <Row Type="BUILDING_ROYAL_BATH" Tag="AGELESS"/>
+      <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Tag="SCIENCE"/>
+      <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Tag="UNIQUE"/>
+      <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Tag="AGELESS"/>
+    </TypeTags>
+    <Constructible_ValidDistricts>
+      <!--Civ Unique Buildings-->
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" DistrictType="DISTRICT_CITY_CENTER"/>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" DistrictType="DISTRICT_URBAN"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" DistrictType="DISTRICT_CITY_CENTER"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" DistrictType="DISTRICT_URBAN"/>
+    </Constructible_ValidDistricts>
+    <Constructible_YieldChanges>
+      <!--Civ Unique Buildings-->
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldType="YIELD_FOOD" YieldChange="3"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+    </Constructible_YieldChanges>
+    <Constructible_Adjacencies>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldChangeId="AstronomicalObservatoryScienceQuarters"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldChangeId="WonderScience"/>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldChangeId="WonderFood"/>
+    </Constructible_Adjacencies>
+    <Constructible_Maintenances>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldType="YIELD_HAPPINESS" Amount="2"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldType="YIELD_GOLD" Amount="2"/>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldType="YIELD_HAPPINESS" Amount="2"/>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldType="YIELD_GOLD" Amount="2"/>
+    </Constructible_Maintenances>
     <Adjacency_YieldChanges>
-        <!-- Navigable River Food Adjacency -->
-		<Row ID="EteDaxeAtoWildcardNavigableRiverFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+      <!-- Navigable River Food Adjacency -->
+      <Row ID="EteDaxeAtoWildcardNavigableRiverFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+      <Row ID="AstronomicalObservatoryScienceQuarters" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
     </Adjacency_YieldChanges>
+    <Constructible_Plunders>
+      <!--Civ Unique Buildings-->
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" PlunderType="PLUNDER_HEAL" Amount="30"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" PlunderType="PLUNDER_HEAL" Amount="30"/>
+    </Constructible_Plunders>
+    <Constructible_BuildingCostProgressions>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" Percent="5" />
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" Percent="5" />
+    </Constructible_BuildingCostProgressions>
+    <UniqueQuarters>
+      <Row UniqueQuarterType="QUARTER_ROYAL_COMPLEX" BuildingType1="BUILDING_ROYAL_BATH" BuildingType2="BUILDING_ASTRONOMICAL_OBSERVATORY" Name="LOC_QUARTER_ROYAL_COMPLEX_NAME" Description="LOC_QUARTER_ROYAL_COMPLEX_DESCRIPTION" Tooltip="LOC_QUARTER_ROYAL_COMPLEX_TOOLTIP" TraitType="TRAIT_NUBIA"/>
+    </UniqueQuarters>
+    <GameModifiers>
+      <Row ModifierId="MOD_NUBIA_CITY_SCIENCE_FROM_FOOD"/>
+    </GameModifiers>
+    <UniqueQuarterModifiers>
+      <Row UniqueQuarterType="QUARTER_ROYAL_COMPLEX" ModifierId="MOD_NUBIA_CITY_SCIENCE_FROM_FOOD"/>
+    </UniqueQuarterModifiers>
+    <ConstructibleModifiers>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" ModifierId="MOD_ROYAL_BATH_GROWTH_RATE"/>
+    </ConstructibleModifiers>
+    <Constructible_Advisories>
+      <Row ConstructibleType="BUILDING_ROYAL_BATH" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+      <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+    </Constructible_Advisories>
     <Constructible_WildcardAdjacencies>
-		<Row YieldChangeId="EteDaxeAtoWildcardNavigableRiverFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
-	</Constructible_WildcardAdjacencies>
+      <Row YieldChangeId="EteDaxeAtoWildcardNavigableRiverFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+    </Constructible_WildcardAdjacencies>
 </Database>

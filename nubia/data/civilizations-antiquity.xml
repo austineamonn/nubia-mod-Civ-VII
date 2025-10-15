@@ -8,10 +8,10 @@
 		<InsertOrIgnore KIND="KIND_TRAIT"/>
 	</Kinds>
 	<Civilizations>
-		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_NUBIA" Name="LOC_CIVILIZATION_NUBIA_NAME" FullName="LOC_CIVILIZATION_NUBIA_FULLNAME" Description="LOC_CIVILIZATION_NUBIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_NUBIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_NUBIA" CapitalName="LOC_CITY_NAME_NUBIA1" RandomCityNameDepth="10"/>
+		<!-- Full Civs --> <!-- TODO: Update when civic tree has been made -->
+		<Row CivilizationType="CIVILIZATION_NUBIA" Name="LOC_CIVILIZATION_NUBIA_NAME" FullName="LOC_CIVILIZATION_NUBIA_FULLNAME" Description="LOC_CIVILIZATION_NUBIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_NUBIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_SILLA" CapitalName="LOC_CITY_NAME_NUBIA1" RandomCityNameDepth="10"/>
 	</Civilizations>
-	<CivilizationFavoredWonders>
+	<CivilizationFavoredWonders> <!-- TODO: Update when unique wonder has been made -->
 		<Row CivilizationType="CIVILIZATION_NUBIA" FavoredWonderType="WONDER_EMILE_BELL" FavoredWonderName="LOC_WONDER_EMILE_BELL_NAME"/>
 	</CivilizationFavoredWonders>
 	<Traits>
@@ -26,8 +26,8 @@
 		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
 		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_NUBIA"/>
 		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_NUBIA_ABILITY"/>
-		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
-		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_SCIENTIFIC"/>
 	</CivilizationTraits>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -112,8 +112,8 @@
 		<Row ListType="NUBIA Unit Biases" Item="UNIT_HWARANG_2" Value="50"/>
 		<Row ListType="NUBIA Unit Biases" Item="UNIT_SANGDAEDEUNG" Value="50"/>
 		<Row ListType="NUBIA Government Bias" Item="GOVERNMENT_OLIGARCHY" Value="25"/>
-		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_PAGODA" Value="200"/>
-		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_LECTURE_HALL" Value="200"/>
+		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_ROYAL_BATH" Value="200"/>
+		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_ASTRONOMICAL_OBSERVATORY" Value="200"/>
 		<Row ListType="NUBIA Constructibles Biases" Item="WONDER_EMILE_BELL" Value="50"/>
 		<Row ListType="NUBIA PseudoYield Biases" Item="PSEUDOYIELD_RESOURCE_IMPORT" Value="50"/>
 		<Row ListType="NUBIA PseudoYield Biases" Item="PSEUDOYIELD_DIPLOMATIC_ALLIANCE" Value="200"/>
