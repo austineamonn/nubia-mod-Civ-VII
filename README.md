@@ -11,6 +11,7 @@ Here is a list of the various sources used to understand the history and culture
  - African History Extra [link here](https://www.africanhistoryextra.com/p/the-ancient-city-of-meroe-the-capital).
  - Civ Wiki on Nubia from Civ VI [link here](https://civilization.fandom.com/wiki/Nubian_(Civ6)).
  - The Royal Road, a Persia Rework by Renouf.
+ - Gebel Barkal stela of Tuthmosis III Translation [link here](https://mjn.host.cs.st-andrews.ac.uk/egyptian/texts/corpus/pdf/GebelBarkalTuthmosisIII.pdf).
 
 ## Latest Update:
 

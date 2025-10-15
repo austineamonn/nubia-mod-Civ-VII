@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<!-- Unique Quarter -->
 	<Modifier id="MOD_NUBIA_CITY_SCIENCE_FROM_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
@@ -13,5 +14,16 @@
 	</Modifier>
 	<Modifier id="MOD_ROYAL_BATH_GROWTH_RATE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_GROWTH">
 		<Argument name="Percent">10</Argument>
+	</Modifier>
+	<!-- Associated Wonder -->
+	<Modifier id="MOD_TEMPLE_OF_AMUN_CULTURE_SPECIALISTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_AMUN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_AMUN_TOOLTIP</Argument>
 	</Modifier>
 </GameEffects>

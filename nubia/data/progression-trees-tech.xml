@@ -2,5 +2,6 @@
 <Database>
 	<ProgressionTreeNodeUnlocks>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_KUSHITE_TOWER" UnlockDepth="1" RequiredTraitType="TRAIT_NUBIA"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_MYSTICISM" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_TEMPLE_OF_AMUN" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

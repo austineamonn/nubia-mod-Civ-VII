@@ -3,15 +3,15 @@
 	<!-- ==================================================	-->
 	<!--	Unique Abilities							-->
 	<!-- ==================================================	-->
-	<Modifier id="KUSHITE_TOWER_INCREASE_STRENGTH_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="ABILITY_KUSHITE_TOWER_INCREASE_STRENGTH_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_KUSHITE_TOWER</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">KUSHITE_TOWER_INCREASE_STRENGTH</Argument>
+		<Argument name="ModifierId">ABILITY_KUSHITE_TOWER_INCREASE_STRENGTH</Argument>
 	</Modifier>
-	<Modifier id="KUSHITE_TOWER_INCREASE_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="ABILITY_KUSHITE_TOWER_INCREASE_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_KUSHITE_TOWER</Argument>
@@ -20,19 +20,24 @@
 		<Argument name="Amount">1</Argument>
 		<String context="Preview">LOC_UNIT_KUSHITE_TOWER_PREVIEW</String>
 	</Modifier>
-	<Modifier id="MOD_PASTORALIST_GENERATE_FOOD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
+	<Modifier id="ABILITY_PASTORALIST_GENERATE_FOOD_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IS_OWNER"/>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_PASTORALIST</Argument>
 			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_ON_DISTRICT">
-				<Argument name="Friendly">true</Argument>
+			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT">
 				<Argument name="DistrictType">DISTRICT_RURAL</Argument>
 			</Requirement>
 		</SubjectRequirements>
+		<Argument name="ModifierId">ABILITY_PASTORALIST_GENERATE_FOOD</Argument>
+		<String context="Description">LOC_MOD_PASTORALIST_GENERATE_FOOD_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ABILITY_PASTORALIST_GENERATE_FOOD" collection="COLLECTION_UNIT_OCCUPIED_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_OWNER"/>
+		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_MOD_PASTORALIST_GENERATE_FOOD_DESCRIPTION</String>
+		<String context="Preview">LOC_UNIT_PASTORALIST_NAME</String>
 	</Modifier>
 </GameEffects>

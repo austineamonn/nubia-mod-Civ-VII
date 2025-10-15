@@ -8,17 +8,27 @@
       <Row Type="BUILDING_ROYAL_BATH" Kind="KIND_CONSTRUCTIBLE"/>
       <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Kind="KIND_CONSTRUCTIBLE"/>
       <Row Type="QUARTER_ROYAL_COMPLEX" Kind="KIND_QUARTER"/>
+      <!--Wonders-->
+		  <Row Type="WONDER_TEMPLE_OF_AMUN" Kind="KIND_CONSTRUCTIBLE"/>
     </Types>
+    <TypeQuotes>
+		  <Row Type="WONDER_TEMPLE_OF_AMUN" Quote="LOC_QUOTE_WONDER_TEMPLE_OF_AMUN" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_TEMPLE_OF_AMUN" QuoteAudio="VO_Quote_Temple_of_Amun"/>
+	  </TypeQuotes>
     <Constructibles>
       <!--Civ Unique Buildings-->
       <Row ConstructibleType="BUILDING_ROYAL_BATH" Name="LOC_BUILDING_ROYAL_BATH_NAME" Description="LOC_BUILDING_ROYAL_BATH_DESCRIPTION" Tooltip="LOC_BUILDING_ROYAL_BATH_TOOLTIP"  ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" Name="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME" Description="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION" Tooltip="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_TOOLTIP" ConstructibleClass="BUILDING" Cost="135" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+      <!--Wonders-->
+		  <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" Name="LOC_WONDER_TEMPLE_OF_AMUN_NAME" Description="LOC_WONDER_TEMPLE_OF_AMUN_DESCRIPTION" Tooltip="LOC_WONDER_TEMPLE_OF_AMUN_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true"/>
     </Constructibles>
     <Buildings>
       <!--Civ Unique Buildings-->
       <Row ConstructibleType="BUILDING_ROYAL_BATH" Movable="false" TraitType="TRAIT_NUBIA"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" Movable="false" TraitType="TRAIT_NUBIA"/>
     </Buildings>
+    <Wonders>
+      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" MaxWorldInstances="1"/>
+    </Wonders>
     <TypeTags>
       <Row Type="BUILDING_ROYAL_BATH" Tag="FOOD"/>
       <Row Type="BUILDING_ROYAL_BATH" Tag="UNIQUE"/>
@@ -27,17 +37,24 @@
       <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Tag="UNIQUE"/>
       <Row Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Tag="AGELESS"/>
     </TypeTags>
+    <Constructible_ValidBiomes>
+      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" BiomeType="BIOME_DESERT"/>
+    </Constructible_ValidBiomes>
     <Constructible_ValidDistricts>
       <!--Civ Unique Buildings-->
       <Row ConstructibleType="BUILDING_ROYAL_BATH" DistrictType="DISTRICT_CITY_CENTER"/>
       <Row ConstructibleType="BUILDING_ROYAL_BATH" DistrictType="DISTRICT_URBAN"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" DistrictType="DISTRICT_CITY_CENTER"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" DistrictType="DISTRICT_URBAN"/>
+      <!--Wonders-->
+		  <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" DistrictType="DISTRICT_WONDER"/>
     </Constructible_ValidDistricts>
     <Constructible_YieldChanges>
       <!--Civ Unique Buildings-->
       <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldType="YIELD_FOOD" YieldChange="3"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+      <!--Wonders-->
+		<Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" YieldType="YIELD_CULTURE" YieldChange="3"/>
     </Constructible_YieldChanges>
     <Constructible_Adjacencies>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldChangeId="AstronomicalObservatoryScienceQuarters"/>
@@ -75,10 +92,12 @@
     </UniqueQuarterModifiers>
     <ConstructibleModifiers>
       <Row ConstructibleType="BUILDING_ROYAL_BATH" ModifierId="MOD_ROYAL_BATH_GROWTH_RATE"/>
+      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" ModifierId="MOD_TEMPLE_OF_AMUN_CULTURE_SPECIALISTS"/>
     </ConstructibleModifiers>
     <Constructible_Advisories>
       <Row ConstructibleType="BUILDING_ROYAL_BATH" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
     </Constructible_Advisories>
     <Constructible_WildcardAdjacencies>
       <Row YieldChangeId="EteDaxeAtoWildcardNavigableRiverFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
