@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" CivilizationName="LOC_CIVILIZATION_NUBIA_NAME" CivilizationFullName="LOC_CIVILIZATION_NUBIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_NUBIA_DESCRIPTION" CivilizationIcon="carthage_icon.png"/>
+	</Civilizations>
+	<CivilizationItems> <!-- TODO: update with Nubian buildings and units -->
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="TRAIT_NUBIA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NUBIA_ABILITY_NAME" Description="LOC_TRAIT_NUBIA_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_HWARANG" Kind="KIND_UNIT" Name="LOC_UNIT_HWARANG_NAME" Description="LOC_UNIT_HWARANG_BASE_DESCRIPTION" Icon="unitflag_leiomano.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_SANGDAEDEUNG" Kind="KIND_UNIT" Name="LOC_UNIT_SANGDAEDEUNG_NAME" Description="LOC_UNIT_SANGDAEDEUNG_DESCRIPTION" Icon="unitflag_SANGDAEDEUNG.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="QUARTER_DRAGON_TEMPLE" Kind="KIND_QUARTER" Name="LOC_QUARTER_DRAGON_TEMPLE_NAME" Description="LOC_QUARTER_DRAGON_TEMPLE_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_LECTURE_HALL" Kind="KIND_BUILDING" Name="LOC_BUILDING_LECTURE_HALL_NAME" Description="LOC_BUILDING_LECTURE_HALL_DESCRIPTION" Icon="impicon_loikalo.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_PAGODA" Kind="KIND_BUILDING" Name="LOC_BUILDING_PAGODA_NAME" Description="LOC_BUILDING_PAGODA_DESCRIPTION" Icon="impicon_loikalo.png"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" TagType="TAG_TRAIT_SCIENTIFIC"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_HATSHEPSUT" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_NUBIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ABBASID" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ABBASID_NAME" Description="LOC_CIVILIZATION_ABBASID_DESCRIPTION" Icon="CIVILIZATION_ABBASID"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SONGHAI" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SONGHAI_NAME" Description="LOC_CIVILIZATION_SONGHAI_DESCRIPTION" Icon="CIVILIZATION_SONGHAI"/>
+	</CivilizationUnlocks>
+</Database>

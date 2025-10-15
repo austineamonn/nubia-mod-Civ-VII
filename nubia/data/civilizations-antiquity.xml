@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_NUBIA_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_NUBIA" Name="LOC_CIVILIZATION_NUBIA_NAME" FullName="LOC_CIVILIZATION_NUBIA_FULLNAME" Description="LOC_CIVILIZATION_NUBIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_NUBIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_NUBIA" CapitalName="LOC_CITY_NAME_NUBIA1" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_NUBIA" FavoredWonderType="WONDER_EMILE_BELL" FavoredWonderName="LOC_WONDER_EMILE_BELL_NAME"/>
+	</CivilizationFavoredWonders>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_NUBIA_ABILITY" Name="LOC_TRAIT_NUBIA_ABILITY_NAME" Description="LOC_TRAIT_NUBIA_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_NUBIA_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_NUBIA"/>
+		<Row TraitType="TRAIT_NUBIA_ABILITY" ModifierId="MOD_CIV_ETE_DAXE_ATO"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_NUBIA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_NUBIA_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA" RequirementId="REQ_PLAYER_HAS_TRAIT_NUBIA"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_NUBIA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_NUBIA" Name="TraitType" Value="TRAIT_NUBIA"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_NUBIA" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--Shawnee-->
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA1"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA2"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA3"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA4"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA6"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA7"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA8"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA9"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA10"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA11"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA12"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA13"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA14"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA15"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA16"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA17"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA18"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA19"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA20"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA21"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA22"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA23"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA24"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA25"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA26"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA27"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA28"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA29"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NUBIA30"/>
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_NUBIA" BiomeType="BIOME_DESERT" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+		<Row CivilizationType="CIVILIZATION_NUBIA" FeatureClassType="FEATURE_CLASS_FLOODPLAIN" Score="20"/>
+	</StartBiasFeatureClasses>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_NUBIA" BuildingCulture="BUILDING_CULTURE_NAF"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" BuildingCulture="MOD_MUD"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_NUBIA" UnitCulture="Afr"/>
+	</VisArt_CivilizationUnitCultures>
+	<AiListTypes>
+		<Row ListType="NUBIA Unit Biases"/>
+		<Row ListType="NUBIA Government Bias"/>
+		<Row ListType="NUBIA Constructibles Biases" />
+		<Row ListType="NUBIA PseudoYield Biases" />
+	</AiListTypes>
+	<AiLists> <!-- TODO: Update when Nubian units and buidings are made-->
+		<Row ListType="NUBIA Unit Biases" LeaderType="TRAIT_NUBIA" System="UnitBiases"/>
+		<Row ListType="NUBIA Government Bias" LeaderType="TRAIT_NUBIA" System="GovernmentBiases"/>
+		<Row ListType="NUBIA Constructibles Biases" LeaderType="TRAIT_NUBIA" System="ConstructibleBiases" />
+		<Row ListType="NUBIA PseudoYield Biases" LeaderType="TRAIT_NUBIA" System="PseudoYieldBiases" />
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="NUBIA Unit Biases" Item="UNIT_HWARANG" Value="50"/>
+		<Row ListType="NUBIA Unit Biases" Item="UNIT_HWARANG_2" Value="50"/>
+		<Row ListType="NUBIA Unit Biases" Item="UNIT_SANGDAEDEUNG" Value="50"/>
+		<Row ListType="NUBIA Government Bias" Item="GOVERNMENT_OLIGARCHY" Value="25"/>
+		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_PAGODA" Value="200"/>
+		<Row ListType="NUBIA Constructibles Biases" Item="BUILDING_LECTURE_HALL" Value="200"/>
+		<Row ListType="NUBIA Constructibles Biases" Item="WONDER_EMILE_BELL" Value="50"/>
+		<Row ListType="NUBIA PseudoYield Biases" Item="PSEUDOYIELD_RESOURCE_IMPORT" Value="50"/>
+		<Row ListType="NUBIA PseudoYield Biases" Item="PSEUDOYIELD_DIPLOMATIC_ALLIANCE" Value="200"/>
+	</AiFavoredItems>
+</Database>

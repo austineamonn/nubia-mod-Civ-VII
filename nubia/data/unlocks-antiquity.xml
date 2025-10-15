@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIV_IS_NUBIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIV_IS_NUBIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIV_IS_NUBIA" Name="CivilizationType" Value="CIVILIZATION_NUBIA"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIV_IS_NUBIA" RequirementId="REQ_CIV_IS_NUBIA"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements> <!-- TODO: Add tooltips later, though they don't have them for S-illa so maybe not needed-->
+		<Row UnlockType="UNLOCK_CIVILIZATION_ABBASID" RequirementSetId="REQSET_CIV_IS_NUBIA" Description="LOC_UNLOCK_PLAY_AS_NUBIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_NUBIA_ABBASID_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_SONGHAI" RequirementSetId="REQSET_CIV_IS_NUBIA" Description="LOC_UNLOCK_PLAY_AS_NUBIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_NUBIA_SONGHAI_TOOLTIP"/>
+	</UnlockRequirements>
+</Database>

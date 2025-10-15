@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_NUBIA_TOOLTIP">
+			<Text>[B]Nubia[/B] was a neighbor to [B]Hatshepsut's[/B] Egypt.</Text>
+		</Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_NUBIA_DESCRIPTION">
+			<Text>Play as [B]Nubia[/B].</Text>
+		</Row>
+	</EnglishText>
+</Database>

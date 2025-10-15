@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Adjacency_YieldChanges>
+        <!-- Navigable River Food Adjacency -->
+		<Row ID="EteDaxeAtoWildcardNavigableRiverFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+    </Adjacency_YieldChanges>
+    <Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="EteDaxeAtoWildcardNavigableRiverFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+	</Constructible_WildcardAdjacencies>
+</Database>

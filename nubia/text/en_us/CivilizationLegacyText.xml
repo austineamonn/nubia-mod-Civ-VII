@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <!--Civilization Names-->
+    <Row Tag="LOC_CIVILIZATION_NUBIA_NAME">
+      <Text>Nubia</Text>
+    </Row>
+    <!--Civilization Full Names-->
+    <Row Tag="LOC_CIVILIZATION_NUBIA_FULLNAME">
+      <Text>Nubian Empire</Text>
+    </Row>
+    <!--Civilization Adjectives-->
+    <Row Tag="LOC_CIVILIZATION_NUBIA_ADJECTIVE">
+      <Text>Nubian</Text>
+    </Row>
+  </EnglishText>
+</Database>
