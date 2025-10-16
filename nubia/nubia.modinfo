@@ -37,9 +37,14 @@
             <Actions>
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/units-persistent.xml</Item>
+					<Item>data/units-gameeffects-persistent.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
@@ -53,6 +58,9 @@
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/movies.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>

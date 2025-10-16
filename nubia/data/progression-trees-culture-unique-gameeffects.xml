@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!--<Modifier id="ATASSA_MOD_UNIT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_RANGED</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_MISSISSIPPIAN_ATASSA</Argument>
+		<String context="Description">LOC_TRADITION_ATASSA_DESCRIPTION</String>
+	</Modifier>-->
+</GameEffects>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRADITION"/>
+	</Kinds>
+	<Types>
+		<!-- ==================================================	-->
+		<!--	ANTIQUITY							-->
+		<!-- ==================================================	-->
+		<!-- Nubia -->
+		<Row Type="TRADITION_ANTIBIOTICS" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_KANDAKE" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_WORSHIP_OF_APEDEMAK" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_SIEGE_OF_HERMOPOLIS" Kind="KIND_TRADITION"/>
+	</Types>
+	<Traditions>
+		<!-- ==================================================	-->
+		<!--	ANTIQUITY							-->
+		<!-- ==================================================	-->
+		<!-- Nubia -->
+		<Row TraditionType="TRADITION_ANTIBIOTICS" Name="LOC_TRADITION_ANTIBIOTICS_NAME" Description="LOC_TRADITION_ANTIBIOTICS_DESCRIPTION" TraitType="TRAIT_NUBIA" AgeType="AGE_ANTIQUITY"/>
+		<Row TraditionType="TRADITION_KANDAKE" Name="LOC_TRADITION_KANDAKE_NAME" Description="LOC_TRADITION_KANDAKE_DESCRIPTION" TraitType="TRAIT_NUBIA" AgeType="AGE_ANTIQUITY"/>
+		<Row TraditionType="TRADITION_WORSHIP_OF_APEDEMAK" Name="LOC_TRADITION_WORSHIP_OF_APEDEMAK_NAME" Description="LOC_TRADITION_WORSHIP_OF_APEDEMAK_DESCRIPTION" TraitType="TRAIT_NUBIA" AgeType="AGE_ANTIQUITY"/>
+		<Row TraditionType="TRADITION_SIEGE_OF_HERMOPOLIS" Name="LOC_TRADITION_SIEGE_OF_HERMOPOLIS_NAME" Description="LOC_TRADITION_SIEGE_OF_HERMOPOLIS_DESCRIPTION" TraitType="TRAIT_NUBIA" AgeType="AGE_ANTIQUITY"/>
+	</Traditions>
+	<TraditionModifiers>
+		<Row TraditionType="TRADITION_ANTIBIOTICS" ModifierId="ANTIBIOTICS_MOD_FOOD_BUILDING_SCIENCE"/>
+		<Row TraditionType="TRADITION_KANDAKE" ModifierId="KANDAKE_MOD_GREAT_WORK_HAPPINESS"/>
+		<Row TraditionType="TRADITION_WORSHIP_OF_APEDEMAK" ModifierId="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_RANGED_ATTACH"/>
+		<Row TraditionType="TRADITION_WORSHIP_OF_APEDEMAK" ModifierId="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_SIEGE_ATTACH"/>
+		<Row TraditionType="TRADITION_SIEGE_OF_HERMOPOLIS" ModifierId="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS"/>
+	</TraditionModifiers>
+</Database>

@@ -38,6 +38,14 @@
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_UNIT_PASTORALIST_NAME</String>
+		<String context="Tooltip">LOC_UNIT_PASTORALIST_NAME</String>
 	</Modifier>
+	<!--<Modifier id="ABILITY_MOD_RANGED_DEFENSE_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" inverse="true">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">4</Argument>
+		<String context="Preview">LOC_TRADITION_ATASSA_PREVIEW</String>
+	</Modifier>-->
 </GameEffects>
