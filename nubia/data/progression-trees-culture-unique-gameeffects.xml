@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!--<Modifier id="ATASSA_MOD_UNIT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="MOD_NUBIAN_CODEX" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_GREAT_WORK" run-once="true" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<Argument name="ObjectType">GREATWORKOBJECT_WRITING</Argument>
+		<String context="Description">LOC_MOD_AQ_CODEX_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_LION_GOD_OF_WAR_FOOD_BUILDING_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION">
+		<Argument name="Tag">FOOD</Argument>
+		<Argument name="Percent">20</Argument>
+		<Argument name="Apply">Rate</Argument>
+		<String context="Description">LOC_LION_GOD_OF_WAR_FOOD_BUILDING_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_RANGED</Argument>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_GREAT_WORK"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_ROYAL_COMPLEX</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_MISSISSIPPIAN_ATASSA</Argument>
-		<String context="Description">LOC_TRADITION_ATASSA_DESCRIPTION</String>
-	</Modifier>-->
+		<Argument name="YieldType">YIELD_SCIENCE, YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE_TOOLTIP</Argument>
+		<String context="Description">LOC_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_TA_SETI_FOOD_NAV_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+				<Argument name="Navigable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TA_SETI_FOOD_SCIENCE_NAV_RIVER_TOOLTIP</Argument>
+		<String context="Description">LOC_TA_SETI_FOOD_SCIENCE_NAV_RIVER_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_TA_SETI_SCIENCE_NAV_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+				<Argument name="Navigable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TA_SETI_FOOD_SCIENCE_NAV_RIVER_TOOLTIP</Argument>
+	</Modifier>
 </GameEffects>

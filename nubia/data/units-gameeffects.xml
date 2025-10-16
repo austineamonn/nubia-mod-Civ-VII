@@ -26,7 +26,7 @@
 				<Argument name="Tag">UNIT_CLASS_PASTORALIST</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT">
-				<Argument name="DistrictType">DISTRICT_CITY_CENTER</Argument>
+				<Argument name="DistrictType">DISTRICT_RURAL</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">ABILITY_PASTORALIST_GENERATE_FOOD</Argument>
@@ -40,12 +40,4 @@
 		<Argument name="Amount">2</Argument>
 		<String context="Tooltip">LOC_UNIT_PASTORALIST_NAME</String>
 	</Modifier>
-	<!--<Modifier id="ABILITY_MOD_RANGED_DEFENSE_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" inverse="true">
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">4</Argument>
-		<String context="Preview">LOC_TRADITION_ATASSA_PREVIEW</String>
-	</Modifier>-->
 </GameEffects>

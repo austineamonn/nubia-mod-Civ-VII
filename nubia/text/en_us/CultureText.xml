@@ -45,7 +45,21 @@
 			<Text>Đặng Trần Côn</Text>
 		</Row>
 		<!--Nubia Civic Description-->
-
+		<Row Tag="LOC_LION_GOD_OF_WAR_FOOD_BUILDING_PRODUCTION_DESCRIPTION">
+			<Text>+20% [icon:YIELD_PRODUCTION] Production towards constructing Food Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE_TOOLTIP">
+			<Text>Slotted Codex and Royal Complex</Text>
+		</Row>
+		<Row Tag="LOC_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE_DESCRIPTION">
+			<Text>Cities with a Codex slotted and a Royal Complex recieve +2 [icon:YIELD_FOOD] Food and +2 [icon:YIELD_SCIENCE] Science.</Text>
+		</Row>
+		<Row Tag="LOC_TA_SETI_FOOD_SCIENCE_NAV_RIVER_TOOLTIP">
+			<Text>Adjacent to Navigable River</Text>
+		</Row>
+		<Row Tag="LOC_TA_SETI_FOOD_SCIENCE_NAV_RIVER_DESCRIPTION">
+			<Text>+2 [icon:YIELD_FOOD] Food and +1 [icon:YIELD_SCIENCE] Science in Settlements on Navigable Rivers.</Text>
+		</Row>
 		<!--Nubia Unique Traditions-->
 		<Row Tag="LOC_TRADITION_ANTIBIOTICS_NAME">
 			<Text>Antibiotics</Text>

@@ -44,10 +44,15 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_MALE_FEMALE_DUALISM" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_ROYAL_BATH" UnlockDepth="1"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" TargetKind="KIND_TRADITION" TargetType="TRADITION_WORSHIP_OF_APEDEMAK" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" TargetKind="KIND_MODIFIER" TargetType="MOD_LION_GOD_OF_WAR_FOOD_BUILDING_PRODUCTION" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_TEMPLE_OF_AMUN" UnlockDepth="2" AIIgnoreUnlockValue="true"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" TargetKind="KIND_MODIFIER" TargetType="MOD_NUBIAN_CODEX" UnlockDepth="2"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_TA_SETI" TargetKind="KIND_TRADITION" TargetType="TRADITION_SIEGE_OF_HERMOPOLIS" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_TA_SETI" TargetKind="KIND_MODIFIER" TargetType="MOD_TA_SETI_CODEX_QUARTER_FOOD_SCIENCE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_TA_SETI" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_TA_SETI" TargetKind="KIND_MODIFIER" TargetType="MOD_TA_SETI_FOOD_NAV_RIVER" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_TA_SETI" TargetKind="KIND_MODIFIER" TargetType="MOD_TA_SETI_SCIENCE_NAV_RIVER" UnlockDepth="2"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<!--Nubia-->
