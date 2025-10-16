@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_RANGED" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_RANGED</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">50</Argument>
-	</Modifier>
-	<Modifier id="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_SIEGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_SIEGE</Argument>
-			</Requirement>
-		</SubjectRequirements>
+	<Modifier id="SPLASH_MOD_NEIGHBOR_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
 		<Argument name="Percent">50</Argument>
 	</Modifier>
 	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">

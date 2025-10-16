@@ -37,9 +37,10 @@
             <Actions>
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/core-types.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
-					<!--<Item>data/units-persistent.xml</Item>-->
+					<Item>data/units-persistent.xml</Item>
 					<Item>data/units-gameeffects-persistent.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>

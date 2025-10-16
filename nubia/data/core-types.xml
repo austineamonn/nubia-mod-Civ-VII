@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_KEYWORD_ABILITY"/>
+	</Kinds>
+	<Types>
+		<!--Keyword Abilities-->
+		<Row Type="KEYWORD_ABILITY_SPLASH" Kind="KIND_KEYWORD_ABILITY"/>
+	</Types>
+	<KeywordAbilities>
+    	<Row KeywordAbilityType="KEYWORD_ABILITY_SPLASH" Name="LOC_KEYWORD_ABILITY_SPLASH" Summary="LOC_KEYWORD_ABILITY_SPLASH_SUMMARY" FullDescription="LOC_KEYWORD_ABILITY_SPLASH_DESCRIPTION"/>
+	</KeywordAbilities>
+</Database>

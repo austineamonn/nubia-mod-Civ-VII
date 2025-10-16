@@ -3,7 +3,7 @@
 	<Civilizations>
 		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" CivilizationName="LOC_CIVILIZATION_NUBIA_NAME" CivilizationFullName="LOC_CIVILIZATION_NUBIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_NUBIA_DESCRIPTION" CivilizationIcon="carthage_icon.png"/>
 	</Civilizations>
-	<CivilizationItems> <!-- TODO: update with Nubian buildings and units -->
+	<CivilizationItems> <!-- TODO: update with graphics -->
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="TRAIT_NUBIA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NUBIA_ABILITY_NAME" Description="LOC_TRAIT_NUBIA_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_KUSHITE_TOWER" Kind="KIND_UNIT" Name="LOC_UNIT_KUSHITE_TOWER_NAME" Description="LOC_UNIT_KUSHITE_TOWER_BASE_DESCRIPTION" Icon="unitflag_leiomano.png"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_PASTORALIST" Kind="KIND_UNIT" Name="LOC_UNIT_PASTORALIST_NAME" Description="LOC_UNIT_PASTORALIST_DESCRIPTION" Icon="unitflag_leiomano.png"/>
