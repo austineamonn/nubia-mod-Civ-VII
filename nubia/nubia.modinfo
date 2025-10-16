@@ -43,6 +43,9 @@
 					<Item>data/units-persistent.xml</Item>
 					<Item>data/units-gameeffects-persistent.xml</Item>
                 </UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/modifier-icons.xml</Item>
+				</UpdateIcons>
                 <UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>

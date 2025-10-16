@@ -8,12 +8,27 @@
 		<Argument name="Tag">FOOD</Argument>
 		<Argument name="YieldType">YIELD_SCIENCE</Argument>
 		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ANTIBIOTICS_NAME</Argument>
 		<String context="Description">LOC_TRADITION_ANTIBIOTICS_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="KANDAKE_MOD_GREAT_WORK_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
+	<Modifier id="ANTIBIOTICS_MOD_FOOD_BUILDING_SCIENCE_NAV_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+				<Argument name="Navigable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Tag">FOOD</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="KANDAKE_MOD_GREAT_WORK_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+				<Argument name="Navigable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Apply">Rate</Argument>
+		<Argument name="Percent">15</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_KANDAKE_NAME</Argument>
 	</Modifier>
 	<Modifier id="WORSHIP_OF_APEDEMAK_MOD_ABILITY_SPLASH_RANGED" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">

@@ -16,4 +16,4 @@ Here is a list of the various sources used to understand the history and culture
 
 ## Latest Update:
 
-Updated Civic tree with bonuses.
+Changed Kandake Tradition and Antibiotics Tradition to focus more on Navigable rivers.

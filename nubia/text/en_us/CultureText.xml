@@ -65,19 +65,19 @@
 			<Text>Antibiotics</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ANTIBIOTICS_DESCRIPTION">
-			<Text>+1 [icon:YIELD_SCIENCE] Science on Food Buildings.</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science on Food Buildings, doubled in Settlements on Navigable Rivers.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_KANDAKE_NAME">
 			<Text>Kandake</Text> <!-- Queen Consort -->
 		</Row>
 		<Row Tag="LOC_TRADITION_KANDAKE_DESCRIPTION">
-			<Text>+2 [icon:YIELD_HAPPINESS] Happiness on displayed Great Works.</Text>
+			<Text>+15% [icon:YIELD_FOOD] Food in Settlements on Navigable Rivers.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_WORSHIP_OF_APEDEMAK_NAME">
 			<Text>Worship of Apedemak</Text> <!-- Lion headed god of war -->
 		</Row>
 		<Row Tag="LOC_TRADITION_WORSHIP_OF_APEDEMAK_DESCRIPTION">
-			<Text>Ranged and Siege Units gain the Splash ability. Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target.</Text>
+			<Text>Ranged and Siege Units gain the Splash ability, Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SIEGE_OF_HERMOPOLIS_NAME">
 			<Text>Siege of Hermopolis</Text>
