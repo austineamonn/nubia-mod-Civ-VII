@@ -30,7 +30,7 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">ABILITY_PASTORALIST_GENERATE_FOOD</Argument>
-		<String context="Description">LOC_MOD_PASTORALIST_GENERATE_FOOD_DESCRIPTION</String>
+		<String context="Tooltip">LOC_UNIT_PASTORALIST_NAME</String>
 	</Modifier>
 	<Modifier id="ABILITY_PASTORALIST_GENERATE_FOOD" collection="COLLECTION_UNIT_OCCUPIED_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
@@ -38,7 +38,6 @@
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Tooltip">LOC_UNIT_PASTORALIST_NAME</String>
 	</Modifier>
 	<!--<Modifier id="ABILITY_MOD_RANGED_DEFENSE_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>

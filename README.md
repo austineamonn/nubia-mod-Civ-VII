@@ -16,4 +16,4 @@ Here is a list of the various sources used to understand the history and culture
 
 ## Latest Update:
 
-Added traditions and part of the progression tree.
+Fixed civic tree order and fixed Siege of Hermopolis Policy.

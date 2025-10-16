@@ -16,7 +16,7 @@
 		<Argument name="Amount">2</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_KANDAKE_NAME</Argument>
 	</Modifier>
-	<Modifier id="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_RANGED_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<!--<Modifier id="WORSHIP_OF_APEDEMAK_MOD_SPLASH_ABILITY_RANGED_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_RANGED</Argument>
@@ -31,13 +31,8 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_WORSHIP_OF_APEDEMAK_SPLASH_SIEGE</Argument>
-	</Modifier>
-	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS</Argument>
+	</Modifier>-->
+	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS</Argument>
 	</Modifier>
 </GameEffects>

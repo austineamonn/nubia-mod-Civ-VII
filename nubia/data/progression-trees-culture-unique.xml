@@ -51,9 +51,9 @@
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<!--Nubia-->
-		<Row Node="NODE_CIVIC_AQ_NUBIA_MALE_FEMALE_DUALISM" PrereqNode="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO"/>
+		<Row Node="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" PrereqNode="NODE_CIVIC_AQ_NUBIA_MALE_FEMALE_DUALISM"/>
 		<Row Node="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" PrereqNode="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO"/>
-		<Row Node="NODE_CIVIC_AQ_NUBIA_TA_SETI" PrereqNode="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO"/>
+		<Row Node="NODE_CIVIC_AQ_NUBIA_TA_SETI" PrereqNode="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR"/>
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
