@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="nubia" version="1.1"
-	xmlns="ModInfo">
+	xmlns="ModInfo"> <!-- cannot label version 0.1 for some reason-->
 	<Properties>
 		<Name>LOC_MODULE_NUBIA_NAME</Name>
 		<Description>LOC_MODULE_NUBIA_DESCRIPTION</Description>
@@ -43,8 +43,17 @@
 					<item>icons/unitflag_kushite_tower.png</item>
 					<item>icons/unitflag_pastoralist.png</item>
 					<item>icons/wondericon_templeofamun.png</item>
-					<item>textures/lsgb_nubia_1080.png</item>
-					<item>textures/lsgb_nubia_720.png</item>
+					<item>textures/lsbg_nubia_1080.png</item>
+					<item>textures/lsbg_nubia_720.png</item>
+					<item>icons/buildicon_astronomicalobservatory</item>
+					<item>icons/buildicon_royalbath</item>
+					<item>icons/civ_sym_nubia</item>
+					<item>icons/cult_nubia</item>
+					<item>icons/unitflag_kushite_tower</item>
+					<item>icons/unitflag_pastoralist</item>
+					<item>icons/wondericon_templeofamun</item>
+					<item>textures/lsbg_nubia_1080</item>
+					<item>textures/lsbg_nubia_720</item>
 				</ImportFiles>
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
@@ -90,9 +99,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-persist-nubia" scope="game" criteria="antiquity-age-persist">
 			<Actions>
-				<UpdateArt>
-					<Item>nubia</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
@@ -111,8 +117,15 @@
 					<item>icons/civ_sym_nubia.png</item>
 					<item>icons/unitflag_kushite_tower.png</item>
 					<item>icons/unitflag_pastoralist.png</item>
-					<item>textures/lsgb_nubia_1080.png</item>
-					<item>textures/lsgb_nubia_720.png</item>
+					<item>textures/lsbg_nubia_1080.png</item>
+					<item>textures/lsbg_nubia_720.png</item>
+					<item>icons/buildicon_astronomicalobservatory</item>
+					<item>icons/buildicon_royalbath</item>
+					<item>icons/civ_sym_nubia</item>
+					<item>icons/unitflag_kushite_tower</item>
+					<item>icons/unitflag_pastoralist</item>
+					<item>textures/lsbg_nubia_1080</item>
+					<item>textures/lsbg_nubia_720</item>
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>

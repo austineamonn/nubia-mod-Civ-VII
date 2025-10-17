@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Civilizations>
-		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" CivilizationName="LOC_CIVILIZATION_NUBIA_NAME" CivilizationFullName="LOC_CIVILIZATION_NUBIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_NUBIA_DESCRIPTION" CivilizationIcon="icons/civ_sum_nubia.png"/>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" CivilizationName="LOC_CIVILIZATION_NUBIA_NAME" CivilizationFullName="LOC_CIVILIZATION_NUBIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_NUBIA_DESCRIPTION" CivilizationIcon="civ_sym_nubia"/>
 	</Civilizations>
 	<CivilizationItems> <!-- TODO: update with graphics -->
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="TRAIT_NUBIA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NUBIA_ABILITY_NAME" Description="LOC_TRAIT_NUBIA_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_KUSHITE_TOWER" Kind="KIND_UNIT" Name="LOC_UNIT_KUSHITE_TOWER_NAME" Description="LOC_UNIT_KUSHITE_TOWER_BASE_DESCRIPTION" Icon="icons/unitflag_kushitetower.png"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_PASTORALIST" Kind="KIND_UNIT" Name="LOC_UNIT_PASTORALIST_NAME" Description="LOC_UNIT_PASTORALIST_DESCRIPTION" Icon="icons/unitflag_pastoralist.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_KUSHITE_TOWER" Kind="KIND_UNIT" Name="LOC_UNIT_KUSHITE_TOWER_NAME" Description="LOC_UNIT_KUSHITE_TOWER_BASE_DESCRIPTION" Icon="UNIT_KUSHITE_TOWER"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="UNIT_PASTORALIST" Kind="KIND_UNIT" Name="LOC_UNIT_PASTORALIST_NAME" Description="LOC_UNIT_PASTORALIST_DESCRIPTION" Icon="UNIT_PASTORALIST"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="QUARTER_ROYAL_COMPLEX" Kind="KIND_QUARTER" Name="LOC_QUARTER_ROYAL_COMPLEX_NAME" Description="LOC_QUARTER_ROYAL_COMPLEX_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ROYAL_BATH" Kind="KIND_BUILDING" Name="LOC_BUILDING_ROYAL_BATH_NAME" Description="LOC_BUILDING_ROYAL_BATH_DESCRIPTION" Icon="icons/buildicon_royalbath.png"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Kind="KIND_BUILDING" Name="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME" Description="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION" Icon="icons/buildicon_astronomicalobservatory.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ROYAL_BATH" Kind="KIND_BUILDING" Name="LOC_BUILDING_ROYAL_BATH_NAME" Description="LOC_BUILDING_ROYAL_BATH_DESCRIPTION" Icon="BUILDING_ROYAL_BATH"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" Type="BUILDING_ASTRONOMICAL_OBSERVATORY" Kind="KIND_BUILDING" Name="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_NAME" Description="LOC_BUILDING_ASTRONOMICAL_OBSERVATORY_DESCRIPTION" Icon="BUILDING_ASTRONOMICAL_OBSERVATORY"/>
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_NUBIA" TagType="TAG_TRAIT_EXPANSIONIST"/>

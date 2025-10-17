@@ -4,43 +4,51 @@
 		<!-- Nubia Civ Symbol-->
 		<Row>
 			<ID>CIVILIZATION_NUBIA</ID>
-			<Path>nubia/icons/civ_sym_nubia.png</Path>
+			<Path>fs://game/nubia/icons/civ_sym_nubia</Path>
 		</Row>
+        <Row>
+            <ID>cult_nubia</ID>
+            <Path>fs://game/nubia/icons/cult_nubia.png</Path>
+        </Row> 
+        <Row>
+            <ID>civ_sym_nubia</ID>
+            <Path>fs://game/nubia/icons/civ_sym_nubia</Path>
+        </Row>
 		<!-- Nubia Loadscreen -->
 		<Row>
 			<ID>CIVILIZATION_NUBIA</ID>
 			<Context>BACKGROUND</Context>
-			<Path>nubia/textures/lsgb_nubia_1080.png</Path>
+			<Path>fs://game/nubia/textures/lsbg_nubia_1080.png</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_NUBIA</ID>
 			<Context>BACKGROUND</Context>
-			<Path>nubia/textures/lsgb_nubia_720.png</Path>
+			<Path>fs://game/nubia/textures/lsbg_nubia_720.png</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<!-- Nubia Units -->
 		<Row>
 			<ID>UNIT_KUSHITE_TOWER</ID>
-			<Path>nubia/icons/unitflag_kushitetower.png</Path>
+			<Path>fs://game/nubia/icons/unitflag_kushitetower</Path>
 		</Row>
 		<Row>
 			<ID>UNIT_PASTORALIST</ID>
-			<Path>nubia/icons/unitflag_pastoralist.png</Path>
+			<Path>fs://game/nubia/icons/unitflag_pastoralist</Path>
 		</Row>
 		<!-- Nubia Buildings -->
 		<Row>
 			<ID>BUILDING_ROYAL_BATH</ID>
-			<Path>nubia/icons/buildicon_royalbath.png</Path>
+			<Path>fs://game/nubia/icons/buildicon_royalbath</Path>
 		</Row>
 		<Row>
 			<ID>BUILDING_ASTRONOMICAL_OBSERVATORY</ID>
-			<Path>nubia/icons/buildicon_astronomicalobservatory.png</Path>
+			<Path>fs://game/nubia/icons/buildicon_astronomicalobservatory</Path>
 		</Row>
 		<!-- Nubia Wonder -->
          <Row>
 			<ID>WONDER_TEMPLE_OF_AMUN</ID>
-			<Path>nubia/icons/wondericon_templeofamun.png</Path>
+			<Path>fs://game/nubia/icons/wondericon_templeofamun</Path>
 		</Row>
 	</IconDefinitions>
     <IconAliases>

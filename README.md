@@ -20,4 +20,4 @@ Here is a list of the various sources used to understand the history and culture
 
 ## Latest Update:
 
-Updated Icons
+Updated Icons with extensionless file versions. Fixed loading screen backgrounds.

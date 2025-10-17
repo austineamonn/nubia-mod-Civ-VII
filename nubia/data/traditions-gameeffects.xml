@@ -49,5 +49,5 @@
 	</Modifier>
 	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<Argument name="ModifierId">SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS</Argument>
-	</Modifier>
+	</Modifier> <!-- TODO: maybe +3 for Siege Units, so that the policy is not directly worse than Shahanshah-->
 </GameEffects>
