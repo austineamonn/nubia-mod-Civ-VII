@@ -35,6 +35,16 @@
 		<!-- Nubia -->
         <ActionGroup id="base-game-main-nubia" scope="game" criteria="always">
             <Actions>
+				<ImportFiles>
+					<item>icons/buildicon_astronomicalobservatory.png</item>
+					<item>icons/buildicon_royalbath.png</item>
+					<item>icons/civ_sym_nubia.png</item>
+					<item>icons/cult_nubia.png</item>
+					<item>icons/unitflag_kushite_tower.png</item>
+					<item>icons/unitflag_pastoralist.png</item>
+					<item>textures/lsgb_nubia_1080.png</item>
+					<item>textures/lsgb_nubia_720.png</item>
+				</ImportFiles>
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/core-types.xml</Item>
@@ -44,7 +54,7 @@
 					<Item>data/units-gameeffects-persistent.xml</Item>
                 </UpdateDatabase>
 				<UpdateIcons>
-					<Item>data/icons/modifier-icons.xml</Item>
+					<Item>data/icons/icons.xml</Item>
 				</UpdateIcons>
                 <UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
@@ -94,9 +104,21 @@
 		</ActionGroup>
 		<ActionGroup id="shell-nubia" scope="shell" criteria="always">
 			<Actions>
+				<ImportFiles>
+					<item>icons/buildicon_astronomicalobservatory.png</item>
+					<item>icons/buildicon_royalbath.png</item>
+					<item>icons/civ_sym_nubia.png</item>
+					<item>icons/unitflag_kushite_tower.png</item>
+					<item>icons/unitflag_pastoralist.png</item>
+					<item>textures/lsgb_nubia_1080.png</item>
+					<item>textures/lsgb_nubia_720.png</item>
+				</ImportFiles>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>

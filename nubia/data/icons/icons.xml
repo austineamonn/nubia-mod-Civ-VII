@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+    <IconDefinitions>
+		<!-- Nubia Civ Symbol-->
+		<Row>
+			<ID>CIVILIZATION_NUBIA</ID>
+			<Path>nubia/icons/civ_sym_nubia.png</Path>
+		</Row>
+		<!-- Nubia Loadscreen -->
+		<Row>
+			<ID>CIVILIZATION_NUBIA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>nubia/textures/lsgb_nubia_1080.png</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_NUBIA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>nubia/textures/lsgb_nubia_720.png</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<!-- Nubia Units -->
+		<Row>
+			<ID>UNIT_KUSHITE_TOWER</ID>
+			<Path>nubia/icons/unitflag_kushitetower.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_PASTORALIST</ID>
+			<Path>nubia/icons/unitflag_pastoralist.png</Path>
+		</Row>
+		<!-- Nubia Buildings -->
+		<Row>
+			<ID>BUILDING_ROYAL_BATH</ID>
+			<Path>nubia/icons/buildicon_royalbath.png</Path>
+		</Row>
+		<Row>
+			<ID>BUILDING_ASTRONOMICAL_OBSERVATORY</ID>
+			<Path>nubia/icons/buildicon_astronomicalobservatory.png</Path>
+		</Row>
+		<!-- Nubia Wonder -->
+	</IconDefinitions>
+    <IconAliases>
+        <Row ID="MOD_NUBIAN_CODEX" OtherID="MOD_GREATWORK_CODEX"/>
+    </IconAliases>
+</Database>
