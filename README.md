@@ -2,7 +2,7 @@
 
 Version 0.1
 
-An antiquity civilization focused on food, science, and siege warfare. Not yet a fully functional civilization.
+An antiquity expansionist and scientific civilization focused on navigable rivers and siege warfare. Not yet a fully functional civilization.
 
 ## Acknowledgements:
 
@@ -20,4 +20,4 @@ Here is a list of the various sources used to understand the history and culture
 
 ## Latest Update:
 
-Added wonder icon.
+Updated Icons
