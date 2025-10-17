@@ -20,4 +20,4 @@ Here is a list of the various sources used to understand the history and culture
 
 ## Latest Update:
 
-Added graphics for buildings, backgrounds and civ icons.
+Added wonder icon.

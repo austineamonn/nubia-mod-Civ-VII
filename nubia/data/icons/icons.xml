@@ -38,6 +38,10 @@
 			<Path>nubia/icons/buildicon_astronomicalobservatory.png</Path>
 		</Row>
 		<!-- Nubia Wonder -->
+         <Row>
+			<ID>WONDER_TEMPLE_OF_AMUN</ID>
+			<Path>nubia/icons/wondericon_templeofamun.png</Path>
+		</Row>
 	</IconDefinitions>
     <IconAliases>
         <Row ID="MOD_NUBIAN_CODEX" OtherID="MOD_GREATWORK_CODEX"/>
