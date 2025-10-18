@@ -34,10 +34,10 @@
 			<Text>Temple of Amun</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_TEMPLE_OF_AMUN_DESCRIPTION">
-			<Text>+3 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture to all Specialists in this City. Ageless. Must be built in Desert.</Text>
+			<Text>+3 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science Adjacency for Navigable Rivers. Ageless. Must be built in Desert.</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_TEMPLE_OF_AMUN_TOOLTIP">
-			<Text>+1 [icon:YIELD_CULTURE] Culture to all Specialists in this City. [N]Must be built in Desert.</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science Adjacency for Navigable Rivers. [N]Must be built in Desert.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_TEMPLE_OF_AMUN">
 			<Text>He created it as his monument for his father Amun-Re, lord of the Thrones of the Two Lands, in the fortress 'Slayer of the foreigners', making for him a resting place of eternity because he made the victories of My Majesty greater than those of any king who had been.</Text>

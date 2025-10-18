@@ -3,11 +3,4 @@
 	<Modifier id="SPLASH_MOD_NEIGHBOR_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
 		<Argument name="Percent">50</Argument>
 	</Modifier>
-	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_OPPONENT_IS_DISTRICT"/>
-		</SubjectRequirements>
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_TRADITION_SIEGE_OF_HERMOPOLIS_PREVIEW</String>
-	</Modifier>
 </GameEffects>

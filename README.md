@@ -1,8 +1,8 @@
 # Nubia Mod Civ VII
 
-Version 0.1
+Version 1.0
 
-An antiquity expansionist and scientific civilization focused on navigable rivers and siege warfare. Not yet a fully functional civilization.
+An antiquity expansionist and scientific civilization focused on navigable rivers and siege warfare. Fully functional but missing some visuals.
 
 ## Acknowledgements:
 
@@ -17,7 +17,10 @@ Here is a list of the various sources used to understand the history and culture
  - See Africa Today [link here](https://seeafricatoday.com/destinations/northern-africa/the-history-of-the-kingdom-of-kush/).
  - Game Icons [link here](https://game-icons.net/1x1/delapouite/siege-tower.html#download).
  - Matt's Civs: Ireland by mattwho.
+ - Attalus [link here](https://www.attalus.org/egypt/piye.html).
+ -  	
+"Antibiotic" Beer Gave Ancient Africans Health Buzz [link here](https://web.archive.org/web/20210207142106/http://www.houblon.net/spip.php?article2100).
 
 ## Latest Update:
 
-Updated Icons with extensionless file versions. Fixed loading screen backgrounds.
+Reworked Siege of Hermopolis Tradition and Temple of Amun Wonder. Added civic quotes.

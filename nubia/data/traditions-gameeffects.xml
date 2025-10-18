@@ -47,7 +47,13 @@
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_SPLASH</Argument>
 	</Modifier>
-	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">SIEGE_OF_HERMOPOLIS_MOD_STRENGTH_AGAINST_DISTRICTS</Argument>
-	</Modifier> <!-- TODO: maybe +3 for Siege Units, so that the policy is not directly worse than Shahanshah-->
+	<Modifier id="SIEGE_OF_HERMOPOLIS_MOD_SIEGE_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SIEGE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_TRADITION_SIEGE_OF_HERMOPOLIS_PREVIEW</String>
+	</Modifier>
 </GameEffects>

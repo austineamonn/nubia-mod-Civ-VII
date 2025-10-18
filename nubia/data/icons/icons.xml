@@ -3,13 +3,14 @@
     <IconDefinitions>
 		<!-- Nubia Civ Symbol-->
 		<Row>
+            <!-- TODO: Fix Civ Symbol which does not show up on leader bar or traditions-->
 			<ID>CIVILIZATION_NUBIA</ID>
 			<Path>fs://game/nubia/icons/civ_sym_nubia</Path>
 		</Row>
         <Row>
             <ID>cult_nubia</ID>
-            <Path>fs://game/nubia/icons/cult_nubia.png</Path>
-        </Row> 
+            <Path>fs://game/nubia/icons/cult_nubia</Path>
+        </Row>
         <Row>
             <ID>civ_sym_nubia</ID>
             <Path>fs://game/nubia/icons/civ_sym_nubia</Path>

@@ -54,7 +54,7 @@
       <Row ConstructibleType="BUILDING_ROYAL_BATH" YieldType="YIELD_FOOD" YieldChange="3"/>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="3"/>
       <!--Wonders-->
-		<Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" YieldType="YIELD_SCIENCE" YieldChange="3"/>
     </Constructible_YieldChanges>
     <Constructible_Adjacencies>
       <Row ConstructibleType="BUILDING_ASTRONOMICAL_OBSERVATORY" YieldChangeId="AstronomicalObservatoryScienceQuarters"/>
@@ -70,7 +70,10 @@
     <Adjacency_YieldChanges>
       <!-- Navigable River Food Adjacency -->
       <Row ID="EteDaxeAtoWildcardNavigableRiverFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+      <!-- Unique Buildings -->
       <Row ID="AstronomicalObservatoryScienceQuarters" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+      <!-- Wonder -->
+      <Row ID="TempleOfAmunWildcardNavRiverScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
     </Adjacency_YieldChanges>
     <Constructible_Plunders>
       <!--Civ Unique Buildings-->
@@ -92,7 +95,7 @@
     </UniqueQuarterModifiers>
     <ConstructibleModifiers>
       <Row ConstructibleType="BUILDING_ROYAL_BATH" ModifierId="MOD_ROYAL_BATH_GROWTH_RATE"/>
-      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" ModifierId="MOD_TEMPLE_OF_AMUN_CULTURE_SPECIALISTS"/>
+      <Row ConstructibleType="WONDER_TEMPLE_OF_AMUN" ModifierId="MOD_TEMPLE_OF_AMUN_ADJACENT_SCIENCE"/>
     </ConstructibleModifiers>
     <Constructible_Advisories>
       <Row ConstructibleType="BUILDING_ROYAL_BATH" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
@@ -101,5 +104,6 @@
     </Constructible_Advisories>
     <Constructible_WildcardAdjacencies>
       <Row YieldChangeId="EteDaxeAtoWildcardNavigableRiverFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+      <Row YieldChangeId="TempleOfAmunWildcardNavRiverScience" RequiresActivation="true"/>
     </Constructible_WildcardAdjacencies>
 </Database>

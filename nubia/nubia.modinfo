@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="nubia" version="1.1"
+<Mod id="nubia" version="1.0"
 	xmlns="ModInfo"> <!-- cannot label version 0.1 for some reason-->
 	<Properties>
 		<Name>LOC_MODULE_NUBIA_NAME</Name>
@@ -7,7 +7,7 @@
 		<Authors>Austin Nicolas</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
-		<Version>0.1</Version>
+		<Version>1.0</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -115,6 +115,7 @@
 					<item>icons/buildicon_astronomicalobservatory.png</item>
 					<item>icons/buildicon_royalbath.png</item>
 					<item>icons/civ_sym_nubia.png</item>
+					<item>icons/cult_nubia.png</item>
 					<item>icons/unitflag_kushite_tower.png</item>
 					<item>icons/unitflag_pastoralist.png</item>
 					<item>textures/lsbg_nubia_1080.png</item>
@@ -122,6 +123,7 @@
 					<item>icons/buildicon_astronomicalobservatory</item>
 					<item>icons/buildicon_royalbath</item>
 					<item>icons/civ_sym_nubia</item>
+					<item>icons/cult_nubia</item>
 					<item>icons/unitflag_kushite_tower</item>
 					<item>icons/unitflag_pastoralist</item>
 					<item>textures/lsbg_nubia_1080</item>

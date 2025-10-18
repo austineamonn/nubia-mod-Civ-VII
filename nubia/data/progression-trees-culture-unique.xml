@@ -13,7 +13,7 @@
 		<Row Type="NODE_CIVIC_AQ_NUBIA_MALE_FEMALE_DUALISM" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_AQ_NUBIA_TA_SETI" Kind="KIND_TREE_NODE"/>
-		<!-- TA_SETI means Land of the Bow in Egyptian -->
+		<!-- Ta Seti means Land of the Bow in Egyptian -->
 	</Types>
 	<TypeQuotes>
 		<Row Type="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO" Quote="LOC_CIVIC_HARMONIC_RATIO_QUOTE" QuoteAuthor="LOC_CIVIC_HARMONIC_RATIO_AUTHOR" QuoteAudio="VO_Quote_HarmonicRatio"/>
@@ -28,6 +28,7 @@
 	<ProgressionTreeNodes>
 		<!--Civ Unique Mastery Tree Nodes-->
 		<!--Nubia-->
+		<!-- TODO: Fix IconStrings, not sure how-->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_HARMONIC_RATIO" ProgressionTree="TREE_CIVICS_AQ_NUBIA" Cost="150" Name="LOC_CIVIC_HARMONIC_RATIO_NAME" IconString="cult_nubia"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_MALE_FEMALE_DUALISM" ProgressionTree="TREE_CIVICS_AQ_NUBIA" Cost="150" Name="LOC_CIVIC_MALE_FEMALE_DUALISM_NAME" IconString="cult_nubia"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_NUBIA_LION_GOD_OF_WAR" ProgressionTree="TREE_CIVICS_AQ_NUBIA" Cost="250" Name="LOC_CIVIC_LION_GOD_OF_WAR_NAME" IconString="cult_nubia"/>

@@ -12,37 +12,37 @@
 			<Text>Harmonic Ratio</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_HARMONIC_RATIO_QUOTE">
-			<Text>"Swinging gleaming blades will cleave you into bamboo chips!"</Text>
+			<Text>"They must have consumed beer because it was rather tastier than the grain from which it was derived. They would have noticed people fared better by consuming this product than they were just consuming the grain itself."</Text> <!-- on the antibiotic benefits of Nubian beer -->
 		</Row>
 		<Row Tag="LOC_CIVIC_HARMONIC_RATIO_AUTHOR">
-			<Text>Nam quốc sơn hà</Text>
+			<Text>John Roach</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_MALE_FEMALE_DUALISM_NAME">
 			<Text>Male Female Dualism</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_MALE_FEMALE_DUALISM_QUOTE">
-			<Text>"Which door leads to fortune and which to misfortune? The result is determined by people."</Text>
+			<Text>"Among these fugitive were the generals of Queen Candacê, who was ruler of the Aethiopians in my time — a masculine sort of woman, and blind in one eye."</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_MALE_FEMALE_DUALISM_AUTHOR">
-			<Text>Nguyễn Bỉnh Khiêm</Text>
+			<Text>The Geography of Strabo</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_LION_GOD_OF_WAR_NAME">
 			<Text>Lion God of War</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_LION_GOD_OF_WAR_QUOTE">
-			<Text>"As the lotus withers, the chrysanthemums bloom. Long sadness, short days – then winter turns to spring."</Text>
+			<Text>"Those in the Nile valley praise her, the cow who gave birth to a bull! You are eternal, your victory enduring, O ruler beloved of Thebes!"</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_LION_GOD_OF_WAR_AUTHOR">
-			<Text>The Tale of Kiều</Text>
+			<Text>The Stele of Piye</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TA_SETI_NAME">
 			<Text>Ta-Seti</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TA_SETI_QUOTE">
-			<Text>"The path to fame is one amid a hundred paths to failure."</Text>
+			<Text>"Then a battering ram was employed against it, so that its walls were demolished and a great slaughter made among them in incalculable numbers,"</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TA_SETI_AUTHOR">
-			<Text>Đặng Trần Côn</Text>
+			<Text>The Stele of Piye</Text>
 		</Row>
 		<!--Nubia Civic Description-->
 		<Row Tag="LOC_LION_GOD_OF_WAR_FOOD_BUILDING_PRODUCTION_DESCRIPTION">
@@ -83,7 +83,7 @@
 			<Text>Siege of Hermopolis</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SIEGE_OF_HERMOPOLIS_DESCRIPTION">
-			<Text>+3 Combat Strength against Districts for all Units.</Text>
+			<Text>+3 Combat Strength for Siege Units.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SIEGE_OF_HERMOPOLIS_PREVIEW">
 			<Text>+{1_Amount} Siege of Hermopolis</Text>
